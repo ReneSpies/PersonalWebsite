@@ -13,7 +13,6 @@ body {
   background-color: #040404;
   color: #fff;
   position: relative;
-  background: transparent;
 }
 
 body::before {
@@ -230,7 +229,6 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   background-color: #18d26e;
   visibility: hidden;
-  width: 0px;
   transition: all 0.3s ease-in-out 0s;
 }
 
@@ -576,7 +574,6 @@ section .container {
   background: rgba(255, 255, 255, 0.1);
   position: relative;
   border-radius: 6px;
-  position: relative;
   z-index: 1;
 }
 
@@ -668,7 +665,6 @@ section .container {
 }
 
 .services .icon-box .icon {
-  margin: 0 auto;
   width: 64px;
   height: 64px;
   background: #18d26e;
@@ -677,7 +673,7 @@ section .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
   transform-style: preserve-3d;
 }
 
@@ -739,12 +735,15 @@ section .container {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+#portfolio-image {
+  height: 300px;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
-  padding: 0;
+.portfolio #portfolio-filters {
   margin: 0 auto 15px auto;
   list-style: none;
   text-align: center;
@@ -752,7 +751,7 @@ section .container {
   padding: 2px 15px;
 }
 
-.portfolio #portfolio-flters li {
+.portfolio #portfolio-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 16px 10px 16px;
@@ -767,11 +766,11 @@ section .container {
   border-radius: 4px;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-filters li:hover, .portfolio #portfolio-filters li.filter-active {
   background: #18d26e;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.portfolio #portfolio-filters li:last-child {
   margin-right: 0;
 }
 
