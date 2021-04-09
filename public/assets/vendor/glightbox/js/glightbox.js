@@ -1114,7 +1114,7 @@
           mediaImage = null;
 
           if (hasClass(media, 'gslide-image')) {
-            mediaImage = media.querySelector('img');
+            mediaImage = media.querySelector('images');
           }
 
           removeClass(overlay, 'greset');
@@ -2253,7 +2253,7 @@
 
         if (type === 'image') {
           slideImage(slide, slideConfig, this.index, function () {
-            var img = slide.querySelector('img');
+            var img = slide.querySelector('images');
 
             if (settings.draggable) {
               new DragSlides({
@@ -3350,12 +3350,12 @@
 
         if (image) {
           if (winWidth <= 768) {
-            var imgNode = image.querySelector('img');
+            var imgNode = image.querySelector('images');
             imgNode.setAttribute('style', '');
           } else if (descriptionResize) {
             var descHeight = description.offsetHeight;
 
-            var _imgNode = image.querySelector('img');
+            var _imgNode = image.querySelector('images');
 
             _imgNode.setAttribute('style', "max-height: calc(100vh - ".concat(descHeight, "px)"));
 

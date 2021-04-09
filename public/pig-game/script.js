@@ -120,7 +120,7 @@ function rollDice() {
 
 		// Display dice
 		diceElement.classList.remove("hidden")
-		diceElement.src = `dice-${dice}.png`
+		diceElement.src = `assets/images/dice-${dice}.png`
 
 		// Check for rolled 1: if true, switch to next player
 		if (dice !== 1) {
