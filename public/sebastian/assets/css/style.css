@@ -18,7 +18,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Julius Sans One", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -295,14 +295,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("https://firebasestorage.googleapis.com/v0/b/personal-website-13.appspot.com/o/renespies.me%2Fsebastian%2Fassets%2Fimages%2Fhero-bg.jpg?alt=media&token=3db0de24-7988-458a-b979-3c98a0b54a59") top right;
+    background: url("https://firebasestorage.googleapis.com/v0/b/personal-website-13.appspot.com/o/renespies.me%2Fsebastian%2Fassets%2Fimages%2Fheader_background.jpg?alt=media&token=9cc8a402-404e-424a-8b09-4372b6c4e6f3") top right;
     background-size: cover;
     position: relative;
 }
 
 #hero:before {
     content: "";
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(0, 0, 0, 0.3);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -392,7 +392,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-    padding: 60px 0;
+    padding: 5rem 0;
 }
 
 .section-bg {
@@ -401,7 +401,7 @@ section {
 
 .section-title {
     text-align: center;
-    padding: 30px 0;
+    padding: 2rem 0;
     position: relative;
 }
 
@@ -409,24 +409,14 @@ section {
     font-size: 32px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 0;
+    margin-bottom: 2rem;
     color: #3b434a;
     position: relative;
-    z-index: 2;
 }
 
-.section-title span {
-    position: absolute;
-    top: 30px;
-    color: rgba(0, 0, 0, 0.2);
-    left: 0;
-    right: 0;
-    z-index: 1;
-    font-weight: 700;
-    font-size: 52px;
-    text-transform: uppercase;
-    line-height: 0;
+.section-title h2 span {
+    padding: 0.4rem 1.5rem;
+    border: #000000 solid 0.1rem;
 }
 
 .section-title p {
@@ -1010,16 +1000,16 @@ section {
 }
 
 .pricing h3 {
-    font-weight: 400;
+    font-weight: 700;
     margin: -20px -20px 20px -20px;
     padding: 20px 15px;
-    font-size: 16px;
+    font-size: 20px;
     color: #ffffff;
     background: #000000;
 }
 
 .pricing h4 {
-    font-size: 36px;
+    font-size: 25px;
     color: #000000;
     font-weight: 600;
     font-family: "Open Sans", sans-serif;
@@ -1148,7 +1138,7 @@ section {
     transition: 0.3s;
     padding: 14px;
     border-radius: 50px;
-    border: 1px solid #000000;
+    border: 0.1rem solid #000000;
 }
 
 .contact .social-links a:hover {
@@ -1265,7 +1255,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-    background: url("https://firebasestorage.googleapis.com/v0/b/personal-website-13.appspot.com/o/renespies.me%2Fsebastian%2Fassets%2Fimages%2Ffooter-bg.jpg?alt=media&token=09f5338d-97c2-4894-8f0a-4ea44c57d427") top center no-repeat;
+    background: url("https://firebasestorage.googleapis.com/v0/b/personal-website-13.appspot.com/o/renespies.me%2Fsebastian%2Fassets%2Fimages%2Ffooter_background.jpg?alt=media&token=0a29c5cf-67a2-4126-ad1a-db4bd93aa2b2") top fixed no-repeat;
     background-size: cover;
     color: #ffffff;
     font-size: 14px;
