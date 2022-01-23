@@ -352,7 +352,7 @@ section .container {
     margin: 0 0 20px 0;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #aaaaaa;
+    color: #AAAAAA;
     font-family: "Poppins", sans-serif;
 }
 
@@ -476,14 +476,9 @@ section .container {
     font-style: normal;
 }
 
-.skills .progress-bar-wrap {
-    background: rgba(255, 255, 255, 0.2);
-}
-
-.skills .progress-bar {
-    width: 1px;
-    height: 10px;
-    transition: .9s;
+.skills .underline {
+    width: inherit;
+    height: 1px;
     background-color: #18d26e;
 }
 
